@@ -1,0 +1,14 @@
+
+.home{
+  background-image:url(Pics/newwww.jpg);
+  background-position: center;
+  background-size:cover;
+    height:100vh;
+    width:100%;
+}
+.button{
+    float:right;
+    padding:10px;
+   background-color:aliceblue;
+    border-radius:5px;
+}
