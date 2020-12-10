@@ -7,10 +7,11 @@ function Navbar2() {
         <div>
              <nav>
                 <ul>
+                <li><Link to='/'>{""}Logout</Link></li> 
                  <li className="nav"> Forecasttoday</li>
-                    <li><Link to='/'>{""}Home</Link></li>
-                   <li><Link to='/signup2'>{""}Signup</Link></li>  
-                    <li><Link to='/login2'>{""}Logout</Link></li>   
+                 <li><Link>{""}Search History</Link></li> 
+                   <li><Link >{""}About</Link></li>  
+                      
                 </ul>
             </nav>
         </div>

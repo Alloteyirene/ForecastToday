@@ -61,6 +61,7 @@ export default function SignInSide() {
     event.preventDefault();
     if(username=== "Sam" && password==="sam" || username=== "Irene" && password==="irene" ){
       setLoggedIn(true)
+      alert("You are loggedin now")
     }
     else{
       alert("Invalid credentials")
@@ -86,6 +87,7 @@ export default function SignInSide() {
           <Typography component="h1" variant="h5">
             Log in
             <h3>Welcome to ForecastToday</h3> 
+            <h4>How are you feeling today?</h4>
           </Typography>
           <form className={classes.form} noValidate>
             <TextField

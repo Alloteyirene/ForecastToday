@@ -141,7 +141,7 @@ export default function SignInSide() {
               color="primary"
               className={classes.submit}
             >
-              Log In
+              Sign up
             </Button>
             <Grid container>
               <Grid item xs>

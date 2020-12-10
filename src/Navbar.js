@@ -7,6 +7,7 @@ function Navbar() {
         <div>
             <nav>
                 <ul>
+                    <li className="nav">ForecastToday</li>
                     <li><Link to='/'>{""}Home</Link></li>
                    <li><Link to='/signup2'>{""}Signup</Link></li>  
                     <li><Link to='/login2'>{""}Login</Link></li>   
